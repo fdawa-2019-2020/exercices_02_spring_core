@@ -1,5 +1,8 @@
 package ex;
 
+/**
+ * Component in charge of communication par radio
+ */
 public class RadioTransmitter extends Base {
 	
 	private RadioDriver driver;
