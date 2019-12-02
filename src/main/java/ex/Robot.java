@@ -18,6 +18,7 @@ public class Robot extends Base {
 		this.commandUnit = commandUnit;
 		this.transmitter = transmitter;
 		this.energySupplier = energySupplier;
+		System.out.println(" Wiring  "+this+"  -> Robot("+commandUnit+", "+transmitter+", "+energySupplier+")");
 	}
 
 	/**

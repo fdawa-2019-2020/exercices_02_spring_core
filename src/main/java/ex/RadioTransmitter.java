@@ -9,6 +9,6 @@ public class RadioTransmitter extends Base {
 	
 	public void setDriver(RadioDriver driver) {
 		this.driver = driver;
-		System.out.println(" Wiring  "+this+" setDriver("+driver+")");
+		System.out.println(" Wiring  "+this+" -> setDriver("+driver+")");
 	}
 }
