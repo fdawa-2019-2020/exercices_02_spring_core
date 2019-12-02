@@ -3,6 +3,6 @@ package ex;
 /**
  * Component in charge of commanding
  */
-public class CommandUnit {
+public class CommandUnit extends Base {
 
 }
