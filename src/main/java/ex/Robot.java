@@ -1,5 +1,7 @@
 package ex;
 
+import org.springframework.stereotype.Component;
+
 import ex.command.CommandUnit;
 import ex.energy.EnergySupplier;
 import ex.radio.RadioTransmitter;
@@ -7,6 +9,7 @@ import ex.radio.RadioTransmitter;
 /**
  * Robot class
  */
+@Component
 public class Robot extends Base {
 	
 	private RadioTransmitter transmitter;
