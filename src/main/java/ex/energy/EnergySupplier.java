@@ -1,5 +1,6 @@
 package ex.energy;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import ex.Base;
@@ -19,7 +20,8 @@ public class EnergySupplier extends Base {
 		addEnergyTank(tank);
 	}
 
-	void addEnergyTank(EnergyTank tank) {
+	@Autowired
+	public void addEnergyTank(EnergyTank tank) {
 		System.out.println(" --> add tank "+ tank);
 	}
 }
