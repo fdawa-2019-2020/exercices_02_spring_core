@@ -1,10 +1,13 @@
 package ex.radio;
 
+import org.springframework.stereotype.Component;
+
 import ex.Base;
 
 /**
  * Component in charge of communication par radio
  */
+@Component
 public class RadioTransmitter extends Base {
 	
 	private RadioDriver driver;

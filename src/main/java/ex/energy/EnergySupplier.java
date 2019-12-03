@@ -1,10 +1,13 @@
 package ex.energy;
 
+import org.springframework.stereotype.Component;
+
 import ex.Base;
 
 /**
  * Component in charge of supplying energy
  */
+@Component
 public class EnergySupplier extends Base {
 
 	public EnergySupplier() {
