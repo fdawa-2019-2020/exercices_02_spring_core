@@ -28,6 +28,6 @@
 	
 	<bean id="nuclearTank" factory-bean="nuclearEnergyTankFactory" factory-method="getNuclearTank"/>
 	
-	<bean id="tank" class="ex.EnergyTankStaticFactory" factory-method="getDefaultTank"/>
+	<bean id="tank" class="ex.EnergyTankStaticFactory" factory-method="getDefaultTank" lazy-init="true"/>
 
 </beans>
