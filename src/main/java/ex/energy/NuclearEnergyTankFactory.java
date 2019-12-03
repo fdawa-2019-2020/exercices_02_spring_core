@@ -1,4 +1,6 @@
-package ex;
+package ex.energy;
+
+import ex.Base;
 
 public class NuclearEnergyTankFactory extends Base{
 	

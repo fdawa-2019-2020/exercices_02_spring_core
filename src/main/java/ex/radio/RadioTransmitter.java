@@ -1,4 +1,6 @@
-package ex;
+package ex.radio;
+
+import ex.Base;
 
 /**
  * Component in charge of communication par radio

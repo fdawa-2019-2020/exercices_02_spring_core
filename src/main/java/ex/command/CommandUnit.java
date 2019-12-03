@@ -1,4 +1,6 @@
-package ex;
+package ex.command;
+
+import ex.Base;
 
 /**
  * Component in charge of commanding

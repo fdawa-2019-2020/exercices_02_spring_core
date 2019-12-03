@@ -1,4 +1,9 @@
 package ex;
+
+import ex.command.CommandUnit;
+import ex.energy.EnergySupplier;
+import ex.radio.RadioTransmitter;
+
 /**
  * Robot class
  */

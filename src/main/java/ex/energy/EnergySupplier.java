@@ -1,4 +1,6 @@
-package ex;
+package ex.energy;
+
+import ex.Base;
 
 /**
  * Component in charge of supplying energy

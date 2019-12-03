@@ -1,4 +1,4 @@
-package ex;
+package ex.energy;
 
 public class EnergyTankStaticFactory {
 	
