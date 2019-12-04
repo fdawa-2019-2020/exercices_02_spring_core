@@ -1,7 +1,10 @@
 package ex.energy;
 
+import org.springframework.stereotype.Component;
+
 import ex.Base;
 
+@Component
 public class EnergyTank extends Base{
 
   private float level;

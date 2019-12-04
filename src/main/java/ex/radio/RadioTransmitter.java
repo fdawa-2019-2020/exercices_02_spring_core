@@ -1,5 +1,6 @@
 package ex.radio;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import ex.Base;
@@ -12,6 +13,7 @@ public class RadioTransmitter extends Base {
 	
 	private RadioDriver driver;
 	
+	@Autowired
 	public void setDriver(RadioDriver driver) {
 		this.driver = driver;
 		System.out.println(" Wiring  "+this+" -> setDriver("+driver+")");
