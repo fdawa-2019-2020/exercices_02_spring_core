@@ -1,0 +1,73 @@
+= Exercices Spring Core
+:author: Marc DEXET<marc.dexet@ias.u-psud.fr>
+:licence: https://creativecommons.org/licenses/by-nc/3.0/fr/
+
+Auteur: {author}
+
+Licence: {licence}
+
+Exercices proposés dans le cadre du cours "Frameworks pour le développement d'applications web avancées" du M2 Datascale 2019-2020
+
+== Fonctionnement
+
+Dans certains TD, les exercices suivent une certaine logique. 
+Afin de ne laisser personne bloqué à une étape, des jalons et des solutions sont fournis sous forme de tags GIT, c'est à dire des commits précis.
+
+
+[IMPORTANT]
+====
+*Ces tags vous serons explicitement communiqués.*
+====
+
+== Pour aller sur un tag
+
+* Afficher la liste des tags
++
+[source,bash]
+----
+$ git tag -l
+----
++
+* Se positionner sur un tag `git checkout MY_TAG`
+** Exemple ici avec STEP_C
++
+[source,bash]
+----
+$ git checkout STEP_C
+Note: switching to 'STEP_C'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+...
+
+HEAD is now at 2b3c794 Solution factory method injection
+----
+
+
+
+
+== Pour avancer à l'étape suivante
+
+Imaginons que vous soyez au point 2_1 d'un exercice.
+
+La procédure à suivre est la suivante:
+
+* Sauvegarder *votre* solution 
++
+[source,bash]
+----
+$ git checkout -b my_solutions_2_1
+$ git add -A
+$ git commit -m "My solution"
+----
++
+* Déplacer votre projet sur le tag souhaité
++
+[source,bash]
+----
+$ git checkout master
+$ git checkout EX_2_1_SOLUTION
+----
+
+
